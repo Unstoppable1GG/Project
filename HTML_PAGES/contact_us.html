@@ -16,11 +16,11 @@
                 <img src="../pngs/McLaren_.svg" alt="Sportscar Logo">
             </div>
             <ul class="nav-links">
-                <li ><a href="../main.html">Home</a></li>
-                <li ><a href="models.html">Models</a></li>
+                <li ><a href="../index.html">Home</a></li>
+                <li ><a href="../HTML_PAGES/models.html">Models</a></li>
                 <!-- <li class="features"><a href="#features">Features</a></li> -->
-                <li ><a href="gallery.html">Gallery</a></li>
-                <li ><a href="contact_us.html">Contact</a></li>
+                <li ><a href="../HTML_PAGES/gallery.html">Gallery</a></li>
+                <li ><a href="../HTML_PAGES/contact_us.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -32,30 +32,31 @@
                     <h3>Get in Touch</h3>
                     <p>Have questions about our models or want to schedule a test drive? Reach out to us!</p>
                     <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> 123 McLaren Way, Woking, Surrey, UK</li>
-                        <li><i class="fas fa-phone"></i> +44 1234 567890</li>
-                        <li><i class="fas fa-envelope"></i> @mclarenexample.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Mumbai, India</li>
+                        <li><i class="fas fa-phone"></i> +91 22-27560282</li>
+                        <li><i class="fas fa-envelope"></i> mumbai@mclarens.in</li>
                     </ul>
                 </div>
-                <form id="contactForm">
+                <form id="contactForm" action="../save_contact.php" method="POST">
                     <div class="form-group">
-                        <label class= "name_label" for="name">Name</label>
+                        <label class="name_label" for="name">Name</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
-                        <label class= "email_label" for="email">Email</label>
+                        <label class="email_label" for="email">Email</label>
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label class= "subject_label" for="subject">Subject</label>
+                        <label class="subject_label" for="subject">Subject</label>
                         <input type="text" id="subject" name="subject" required>
                     </div>
                     <div class="form-group">
-                        <label class= "message_label" for="message">Message</label>
+                        <label class="message_label" for="message">Message</label>
                         <textarea id="message" name="message" required></textarea>
                     </div>
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
+                
             </div>
         </section>
     </main>
@@ -66,26 +67,27 @@
                 <img src="../pngs/McLaren_.svg" alt="McLaren Logo" class="footer-logo">
                 <p>Experience the pinnacle of automotive engineering and luxury with McLaren.</p>
                 <div class="social-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/mclarenautomotive/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/mclarenauto"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/mclarenauto/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCiWQ5eQPkw2BX2L4jeHKEVQ"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="footer-section links">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="../main.html">Home</a></li>
-                    <li><a href="../HTML_PAGES/models.html">Models</a></li>
-                    <li><a href="../HTML_PAGES/gallery.html">Gallery</a></li>
-                    <li><a href="../HTML_PAGES/contact_us.html">Contact</a></li>
+                    <li ><a href="../index.html">Home</a></li>
+                    <li ><a href="../HTML_PAGES/models.html">Models</a></li>
+                    <!-- <li class="features"><a href="#features">Features</a></li> -->
+                    <li ><a href="../HTML_PAGES/gallery.html">Gallery</a></li>
+                    <li ><a href="../HTML_PAGES/contact_us.html">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section contact">
                 <h3>Contact Us</h3>
-                <p><i class="fas fa-map-marker-alt"></i> 123 McLaren Way, Woking, Surrey, UK</p>
-                <p><i class="fas fa-phone"></i> +44 1234 567890</p>
-                <p><i class="fas fa-envelope"></i> info@mclarenexample.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Mumbai, India </p>
+                <p><i class="fas fa-phone"></i> +91 22-27560282</p>
+                <p><i class="fas fa-envelope"></i> mumbai@mclarens.in</p>
             </div>
         </div>
         <div class="footer-bottom">
@@ -93,6 +95,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../JS_SCRIPTS/contact_us.js"></script>
 </body>
 </html>
